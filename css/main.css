@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+*{
+    font-family: 'Rowdies', cursive;
+}
+body {
+    background-color: #FFF9F9;
+}
+
+.todo-filter {
+    background-color: #D6E5FA;
+    padding: 5px;
+    border-radius: 5px;
+}
+.todo-stat {
+    background-color: #BAABDA;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.todo-stat span {
+    color: #FFF9F9;
+    font-weight: bold;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.timestamp{
+    font-size: 7px;
+    color: #D77FA1;
+}
+
+.todos-none{
+    visibility: hidden;
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.561);
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.561);
+    padding: 1px 5px;
+}
+
+button:hover{
+    background-color: rgba(128, 128, 128, 0.294);
+}
+
+select {
+    padding: 1px 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.561);
+}
